@@ -1,0 +1,77 @@
+.bestSelling{
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid transparent;
+  padding-top: 150px;
+  text-align: center;
+}
+.bestSelling h1{
+  font-size:64px;
+  font-weight: 600;
+  line-height: 4.43rem;
+}
+.bestSelling p{
+  font-size: 2rem;
+  margin-top: 2.375rem;  
+}
+.bestSelling button{
+  background: transparent;
+  border: 2px solid #365567;
+  width: 16.025rem;
+  height: 3.125rem;
+  font-size: 1.56rem;
+  color: #dc7e82;
+  margin-top: 2.68rem;
+  margin-bottom: 4.312rem;
+  border-radius: .375rem;
+  &:hover{
+    background-color: #dc7e82;
+    color: white;
+  }
+
+}
+
+.cardSection{
+
+}
+.embla{
+  overflow: hidden;
+  margin-top: 70px;
+}
+.embla__container{
+  display: flex;
+}
+.embla__slide{
+  display: flex;
+  flex-direction: column;
+  margin-right: 64px;
+
+}
+.imgDiv{
+  width: 357px;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.cardImg{
+  width: 357px;
+  height: 560px;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.cardText{
+  width: 357;
+}
+.cardText h1{
+  font-size: 25px;
+
+}
+.cardText p{
+  font-size: 1.56rem;
+}
+.star{
+  display: inline-block;
+  margin-top: -3px;
+}
