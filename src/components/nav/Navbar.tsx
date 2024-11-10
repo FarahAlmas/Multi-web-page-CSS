@@ -23,10 +23,20 @@ export default function Navbar() {
     exit={{height:"0px", opacity:0}}
     transition={{duration:3}}>
    <ul>
-      <li><Link href="#!" style={{fontWeight:"800",textDecoration:"underline"}}>Home</Link></li>
-      <li><Link  href="#!">Shop</Link></li>
-      <li><Link  href="#!">Feature</Link></li>
-      <li><Link  href="#!">Contact</Link></li>
+      <li>
+        <Link href="/" style={{fontWeight:"800"}}>
+        Home
+        </Link>
+        </li>
+      <li>
+        <Link href="./shop">Shop</Link>
+        </li>
+      <li>
+        <Link href="./feature">Feature</Link>
+        </li>
+      <li>
+        <Link href="/">Contact</Link>
+        </li>
     </ul>
     <button>LOGIN</button>
    </motion.div>
@@ -34,10 +44,26 @@ export default function Navbar() {
    ) : (
     <div className={`${styles.linksDiv}`}>
    <ul>
-      <li><Link href="#!" style={{fontWeight:"800",textDecoration:"underline"}}>Home</Link></li>
-      <li><Link  href="#!">Shop</Link></li>
-      <li><Link  href="#!">Feature</Link></li>
-      <li><Link  href="#!">Contact</Link></li>
+      <li>
+        <Link href="/" style={{fontWeight:"800"}}>
+        Home
+        </Link>
+        </li>
+      <li>
+        <Link href="./shop">
+      Shop
+      </Link>
+      </li>
+      <li>
+        <Link href="./feature">
+        Feature
+        </Link>
+        </li>
+      <li>
+        <Link href="/">
+        Contact
+        </Link>
+        </li>
     </ul>
     <button>LOGIN</button>
    </div>

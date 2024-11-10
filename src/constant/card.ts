@@ -4,8 +4,8 @@ export const cardData = [
     backgroundColor: '#fffff',
     src:"/images/image-2.png",
     heading:"Regular fit long sleeve suit",
-    price: "$38.99",
-    rating:"5.0",
+    price: "$78.99",
+    rating:5,
   
   },
   {
@@ -13,8 +13,8 @@ export const cardData = [
     backgroundColor: '#fffff',
     src:"/images/image-3.png",
     heading:"Regular fit long sleeve suit",
-    price: "$38.99",
-    rating:"5.0",
+    price: "$62.99",
+    rating:4,
   
   },
   {
@@ -23,7 +23,7 @@ export const cardData = [
     src:"/images/image-4.png",
     heading:"Regular fit long sleeve suit",
     price: "$38.99",
-    rating:"5.0",
+    rating:5,
   
   },
   {
@@ -31,8 +31,8 @@ export const cardData = [
     backgroundColor: '#fffff',
     src:"/images/image-5.png",
     heading:"Regular fit long sleeve suit",
-    price: "$38.99",
-    rating:"5.0",
+    price: "$49.99",
+    rating:4,
   
   },
   {
@@ -40,8 +40,8 @@ export const cardData = [
     backgroundColor: '#fffff',
     src:"/images/image-6.png",
     heading:"Regular fit long sleeve suit",
-    price: "$38.99",
-    rating:"5.0",
+    price: "$50.00",
+    rating:3,
   
   }, 
   {
@@ -49,8 +49,8 @@ export const cardData = [
     backgroundColor: '#fffff',
     src:"/images/image-7.png",
     heading:"Regular fit long sleeve suit",
-    price: "$38.99",
-    rating:"5.0",
+    price: "$60.00",
+    rating:5,
   
   }
 ]

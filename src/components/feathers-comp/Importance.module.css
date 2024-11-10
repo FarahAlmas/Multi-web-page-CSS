@@ -1,0 +1,14 @@
+.mainDiv{
+  width: 100%;
+  align-items: center;
+  background-color: aqua;
+}
+.upperDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.upperDiv h1{
+  margin-bottom: 20px;
+}

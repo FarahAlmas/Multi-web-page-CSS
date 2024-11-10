@@ -9,7 +9,8 @@ import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import { useEffect } from "react";
 import Autoplay from "embla-carousel-autoplay";
-import { delay } from "framer-motion";
+import Link from "next/link";
+
 export default function BestSelling() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay:2000,stopOnInteraction:false,stopOnMouseEnter:true})])
 
@@ -45,13 +46,13 @@ export default function BestSelling() {
               </div>
               <div className={styles.cardText}>
                 <h1>Regular fit long sleeve suit</h1>
-               <pre>{data.price}  |  {data.rating} <FaStar className={styles.star} color="yellow" size={"20px"}/></pre>
+               <pre>{data.price}  |  {data.rating}.0 <FaStar className={styles.star} color="yellow" size={"20px"}/></pre>
               </div>
             </div>
            )})}
         </div>
         </div>
-        <button>See more</button>
+        <Link href={"./shop"}><button>See more</button></Link>
       </section>
     </div>
   );
